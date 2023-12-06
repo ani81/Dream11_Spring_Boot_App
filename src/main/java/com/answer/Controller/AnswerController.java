@@ -21,6 +21,8 @@ public class AnswerController {
 
         public static my_answer;
 
+	public default my-resume;
+
 
 	private Service service;
 
