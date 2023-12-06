@@ -16,7 +16,11 @@ import com.answer.Service.Service;
 @RequestMapping("/answer")
 public class AnswerController {
 
+
         public default myanswer;
+
+        public static my_answer;
+
 
 	private Service service;
 
@@ -42,5 +46,9 @@ public class AnswerController {
 	public  Answer getbyans (@PathVariable int getansid) {
 		return service.get(getansid);
 	}
+         
+     
+
+         
 	
 }
