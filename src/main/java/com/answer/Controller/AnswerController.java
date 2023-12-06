@@ -16,6 +16,8 @@ import com.answer.Service.Service;
 @RequestMapping("/answer")
 public class AnswerController {
 
+        public default myanswer;
+
 	private Service service;
 
 	public AnswerController(Service service) {
